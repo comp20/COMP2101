@@ -13,7 +13,27 @@ $(( RANDOM % 6 + 1)) rolled
 #this script rolls a six-sided dice
 echo "
 Rolling...
-$(( KRISHA % 6 + 5)) rolled
+$(( K % 6 + 1)) rolled
+"
+echo "
+Rolling...
+$(( R % 6 + 1)) rolled
+"
+echo "
+Rolling...
+$(( I % 6 + 1)) rolled
+"
+echo "
+Rolling...
+$(( S % 6 + 1)) rolled
+"
+echo "
+Rolling...
+$(( H % 6 + 1)) rolled
+"
+echo "
+Rolling...
+$(( A % 6 + 1)) rolled
 "
 #this script rolls a twenty-sided dice
 echo "
