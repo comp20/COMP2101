@@ -22,13 +22,15 @@ die2=$(( RANDOM % 6 + 1 ))
 # display the results
 echo "Rolled $die1, $die2"
 
+#rask shows range and bias of random
 echo "Rolling..."
 # roll the dice and save the results
 die1=$(( RANDOM % 6 + 2))
-die2=$(( RANDOM % 6  + 2 ))
+die2=$(( RANDOM % 6 + 2))
 # display the results
 echo "Rolled $die1, $die2"
 
+#task show sum and averge of the dice
 echo "Rolling..."
 # roll the dice and save the results
 die1=$((7 + 8))
