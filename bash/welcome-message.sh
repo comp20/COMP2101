@@ -19,7 +19,7 @@
 # Variables   #
 ###############
 title="Scripting"
-Id="200419604"
+ID="200419604"
 USER="krisha01"
 page="Namaste"
 time="11:31 P.M"
@@ -33,8 +33,8 @@ description="This is a Shell Scripting."
 ###############
 cat <<EOF
 "$USER!"
-"$Id!"
-Welcome to my page of $title, "$page!"
+"$ID!"
+Welcome to my page of $page, "$title!"
 "$time $date $day!"
  "$description!"
 
