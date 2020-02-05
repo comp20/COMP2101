@@ -18,24 +18,17 @@
 ###############
 # Variables   #
 ###############
-title="Scripting"
-ID="200419604"
-USER="krisha01"
-page="Namaste"
-time="11:31 P.M"
-date="31-01-2020"
-day="Everyday is a Goodday"
-description="This is a Shell Scripting."
+name="USER"
+hostname=$(hostname +%F)
+currentdate=$(date +%A)
+currenttime=$(date +"%T")
 
 
 ###############
 # Main        #
 ###############
 cat <<EOF
-"$USER!"
-"$ID!"
-Welcome to my page of $page, "$title!"
-"$time $date $day!"
- "$description!"
+Welcome to my page of $name, "$hostname!"
+ "$currentdate, $currenttime!"
 
 EOF
