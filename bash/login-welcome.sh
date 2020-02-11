@@ -24,18 +24,18 @@ day=$(date +%A)
 dateinf=$(date +%I:%M\ %p)
 if [ "$day" = Monday ];
 then
-cows="Welcome to planet $hostname, C $loggeduser!"
+cows="Welcome to planet $hostname, Consultant $loggeduser!"
 elif [ "$day" = Tuesday ];then
-cows="Welcome to planet $hostname, C++ $loggeduser!"
+cows="Welcome to planet $hostname, Project manager $loggeduser!"
 elif [ "$day" = Wednesday ];then
-cows="Welcome to planet $hostname, Java $loggeduser!"
+cows="Welcome to planet $hostname, Professor $loggeduser!"
 elif [ "$day" = Thursday ];then
-cows="Welcome to planet $hostname, Python $loggeduser!"
+cows="Welcome to planet $hostname, Helpdesk Technica+ian $loggeduser!"
 elif [ "$day" = Friday ];then
-cows="Welcome to planet $hostname, SQL $loggeduser!"
+cows="Welcome to planet $hostname, Accountant $loggeduser!"
 elif [ "$day" = Saturday ];then
-cows="Welcome to planet $hostname, HTML $loggeduser!"
+cows="Welcome to planet $hostname, IT Specialist $loggeduser!"
 else
-cows="Welcome to planet $hostname, CSS $loggeduser!"
+cows="Welcome to planet $hostname, IT Administrator  $loggeduser!"
 fi
 cowsay "$cows It is $dateinf on $day ."
