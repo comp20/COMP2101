@@ -1,0 +1,1 @@
+$env:PATH = "$env:PATH;c:/users/krish/Documents/WindowsPowerShell/Scripts"
